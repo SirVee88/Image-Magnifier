@@ -1,0 +1,29 @@
+.container {
+    position: relative;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.magnifier {
+    position: relative;
+    display: inline-block;
+}
+
+.magnifier img {
+    display: block;
+}
+
+#magnifier {
+    position: absolute;
+    border: 2px solid #000;
+    width: 100px;
+    height: 100px;
+    background: rgba(255, 255, 255, 0.5);
+    cursor: crosshair;
+    display: none; /* Hidden initially */
+}
+
+#image {
+    width: 100%; /* Ensure the image scales to container */
+    height: auto;
+}
